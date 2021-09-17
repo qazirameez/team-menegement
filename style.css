@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.containor{
+width: 70%;
+margin: 0 auto;
+padding: 40px;
+}
+
+legend{
+    font-weight: bold;
+}
+
+
+.input{
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: solid 1px gray;
+    width: 500px !important;
+    margin: 20px 0px 40px 0px;
+    padding-bottom: 5px; 
+}
+
+
+
+::placeholder { 
+    color: black;
+}
+
+
+fieldset{
+    border: black solid 1px !important;
+    padding: 30px !important;
+
+}
+
+.inputs-div{
+    margin: 0 auto ;
+    width: 70%;
+    padding: 40px 0px 40px 0px;
+    color: gray;
+}
+
+
+.button-div{
+    text-align: center;
+}
+
+.signup-button{
+    background-color: blue;
+    border-radius: 12px;
+    height: 40px;
+    width: 60px;    
+}
+
+
+
+.login-button{
+    background-color: blue;
+    border-radius: 12px;
+    height: 40px;
+    width: 60px;    
+}
+
+.team-button{
+    background-color: blue;
+    border-radius: 12px;
+    font-size: 18px;
+    height: 40px;
+    width: 70px; 
+}
+
+
+
+
+.create-team-display-show{
+    display: unset;
+    text-align: center;
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    border: solid 1px black;
+    background-color: white;
+}
+
+.create-team-display-none{
+    display: none ;
+}
+
+
+.create-team-div{
+    display: none;
+}
+
+
+.Categery-div{
+    border: solid 2px black !important;
+    margin: 0 auto ;
+    width: 70%;
+
+}
+
+.drop-div{
+    border: solid 2px black !important;
+    margin: 0 auto ;
+    width: 70%;
+}
+.Categery{
+    width: 100%;
+}
+
+
+.own-teams{
+    border: solid 2px black;
+    margin: 10px;
+}
+
+.own-teams1{
+    font-weight: bold;
+    margin: 0px;
+}
+
+.own-teams2{
+    font-size: 15px;
+    margin: 0px;
+    display: inline;
+
+    /* font-weight: bold; */
+}
+
+
+@media screen and (max-width: 1010px){
+    .input{
+        width: 100% !important;
+    }
+
+}
